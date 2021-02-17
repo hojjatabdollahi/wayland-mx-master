@@ -1,4 +1,7 @@
 # wayland-mouse-mapper
+
+Updated for mx master using [this](https://wiki.archlinux.org/index.php/Talk:Logitech_MX_Master).
+
 A small script for mapping mouse buttons to keystrokes on Wayland.
 
 I made for myself to use my mouse extra buttons for useful stuff.
