@@ -28,19 +28,19 @@ The script depends on the following executables being available in your PATH:
 
 to install those just run the following command (with root privileges):
 ```
-dnf -y install libinput evemu
+sudo apt install evemu-tools libinput-tools
 ```
 
 ## Usage
 Run the following command (with root privileges):
 ```
-./mousemapper.sh
+./mousemapper
 ```
 
 ## Installation (start at boot)
 Run the following commands (with root privileges):
 ```
-cp mousemapper.sh /usr/bin/mousemapper
+cp mousemapper /usr/bin/mousemapper
 cp mousemapper.service /usr/lib/systemd/system/
 systemctl enable mousemapper.service
 ```
